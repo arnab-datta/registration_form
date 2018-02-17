@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="testbox">
+    <h1>Registration</h1>
+  
+    <form action="controller.php" method="POST" enctype="multipart/form-data">
+      <hr>
+     
+    <hr>
+    <label id="icon" for="email"><i class="icon-envelope "></i></label>
+    <input type="text" name="email" id="email" placeholder="Email" required/>
+
+    <label id="icon" for="name"><i class="icon-user"></i></label>
+    <input type="text" name="name" id="name" placeholder="Name" required/>
+
+    <label id="icon" for="pwd"><i class="icon-shield"></i></label>
+    <input type="password" name="pwd" id="pwd" placeholder="Password" required/>
+    
+   <div class="gender">
+      <input type="radio" value="male" id="male" name="gender">
+      <label for="male" class="radio" >Male</label>
+      <input type="radio" value="female" id="female" name="gender" />
+      <label for="female" class="radio">Female</label>
+    </div> 
+    
+    <p>Picture</p>
+      <input type="file" name="image" id="image">
+
+   <p></p>
+ <!-- <p></p>
+     <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p> -->
+   
+     <input name="sub" type="submit" class="design" value="Register">Register</input>
+    </form>
+  </div>
+</body>
+
+</html>
