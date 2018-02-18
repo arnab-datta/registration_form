@@ -15,7 +15,7 @@ if(isset($_POST['sub']))
   $pass = md5($_POST['pwd']);
 
 
-   $ins = "INSERT INTO student SET name='$name', mail='$email', gender='$gender', password='$pass', image='$img' ";
+   $ins = "INSERT INTO student SET name='$name', email='$email', gender='$gender', password='$pass', image='$img' ";
    $con->query($ins);
   header("location:view.php");
 }

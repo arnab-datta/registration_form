@@ -38,7 +38,7 @@ include('conn.php');
                 ?>
                   <tr>
                     <td><?php  echo $row['name'];?></td>
-                    <td><?php  echo $row['mail'];?></td>
+                    <td><?php  echo $row['email'];?></td>
                     <td><?php  echo $row['gender'];?></td>
                     <td><img src="upload/<?php echo $row['image'];  ?>" style="width: 75px;"></td>
 
