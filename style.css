@@ -1,13 +1,6 @@
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
-pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+body, div, h1, form, fieldset, input, textarea, p{ 
   padding:0;
   margin:0;}
-
-fieldset, img {border:0}
-
-ol, ul, li {list-style:none}
-
-:focus {outline:none}
 
 body,
 input,
@@ -156,12 +149,10 @@ input[type=password]{
 
 .design {
   background-color: #416eb1; 
-  border: none;
+  padding: 10px;
   color: white;
-  padding: 10px 24px;
+  border: none;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 10px;
 }
 
@@ -172,5 +163,15 @@ input[type=password]{
   -moz-box-shadow: none; 
   box-shadow: none;
   
+}
+
+.alert{
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  width: 50%;
+  margin: 0px auto;
+  display: none;
 }
 
