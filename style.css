@@ -34,6 +34,7 @@ html{
   margin: 20px auto;
   width: 343px; 
   height: 464px; 
+  text-align: center;
   -webkit-border-radius: 8px/7px; 
   -moz-border-radius: 8px/7px; 
   border-radius: 8px/7px; 
@@ -150,6 +151,7 @@ input[type=password]{
 .design {
   background-color: #416eb1; 
   padding: 10px;
+  width: 20%;
   color: white;
   border: none;
   text-align: center;
