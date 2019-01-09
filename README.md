@@ -2,9 +2,9 @@
 
 ### HTML + CSS3 + firebase
 
-![Registration Page](https://github.com/arnab-datta/registration_form/ss/1.png)
-![User Details Fill up](https://github.com/arnab-datta/registration_form/ss/2.png)
-![Registration Successfull](https://github.com/arnab-datta/registration_form/ss/3.png)
+![Registration Page](/ss/1.png)
+![User Details Fill up](/ss/2.png)
+![Registration Successfull](/ss/3.png)
 
 ####  HTML 
 
