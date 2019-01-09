@@ -2,9 +2,6 @@
 
 ### HTML + CSS3 + firebase
 
-![Registration Page](/ss/1.png)
-![User Details Fill up](/ss/2.png)
-![Registration Successfull](/ss/3.png)
 
 ####  HTML 
 
